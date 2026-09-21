@@ -10,7 +10,6 @@ import {
   LucidePlay,
   LucideStar,
   LucidePlus,
-  LucidePlusCircle,
   LucideHeart,
 } from '@lucide/angular';
 
