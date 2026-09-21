@@ -10,12 +10,21 @@ import {
   LucidePlay,
   LucideStar,
   LucidePlus,
+  LucidePlusCircle,
+  LucideHeart,
 } from '@lucide/angular';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideRouter(routes),
-    provideLucideIcons(LucideSearch, LucideUserRound, LucidePlay, LucideStar, LucidePlus),
+    provideLucideIcons(
+      LucideSearch,
+      LucideUserRound,
+      LucidePlay,
+      LucideStar,
+      LucidePlus,
+      LucideHeart,
+    ),
   ],
 };
