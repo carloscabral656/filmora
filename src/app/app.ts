@@ -1,14 +1,11 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeaderComponent } from './shared/components/header/header.component';
+import { HomePage } from './slices/home/page/home-page.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent],
+  imports: [HeaderComponent, HomePage],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App implements OnInit {
-  ngOnInit(): void {
-    throw new Error('Method not implemented.');
-  }
-}
+export class App {}
